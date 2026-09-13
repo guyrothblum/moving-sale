@@ -203,6 +203,7 @@
     const c = data.config, ct = c.contact || {};
     $('cfgTitle').value = c.title || '';
     $('cfgSubtitle').value = c.subtitle || '';
+    $('cfgAvail').value = c.availability || '';
     $('cfgNote').value = c.note || '';
     $('cfgName').value = ct.name || '';
     $('cfgEmail').value = ct.email || '';
@@ -213,6 +214,7 @@
     const map = {
       cfgTitle: (v) => (data.config.title = v),
       cfgSubtitle: (v) => (data.config.subtitle = v),
+      cfgAvail: (v) => (data.config.availability = v),
       cfgNote: (v) => (data.config.note = v),
       cfgName: (v) => ((data.config.contact ||= {}).name = v),
       cfgEmail: (v) => ((data.config.contact ||= {}).email = v),
@@ -413,15 +415,20 @@
 
   /* ============================ save ============================ */
   function cleanForSave() {
+    // This rebuilds the file from a fixed set of keys, so anything not listed
+    // here is dropped on save. Fields the admin UI does not expose still have
+    // to be carried across, or editing the page would quietly delete them.
     const out = {
       config: {
         title: data.config.title || '',
         subtitle: data.config.subtitle || '',
+        availability: data.config.availability || '',
         note: data.config.note || '',
         contact: {
           name: (data.config.contact || {}).name || '',
           email: encodeContact((data.config.contact || {}).email),
           phone: encodeContact((data.config.contact || {}).phone),
+          phoneNote: (data.config.contact || {}).phoneNote || '',
         },
       },
       items: data.items.map((it) => ({
@@ -431,6 +438,7 @@
         status: it.status || 'available',
         dimensions: it.dimensions || '',
         description: it.description || '',
+        ...(it.focal ? { focal: it.focal } : {}),
         photos: (it.photos || []).filter(Boolean),
       })),
     };

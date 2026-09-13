@@ -24,6 +24,18 @@
       <span>Photo coming soon</span>
     </div>`;
 
+  // The 4/3 thumbnail crops a tall photo to its middle, which can behead the
+  // subject. An item may set "focal" to shift that crop, e.g. "50% 10%" to show
+  // more of the top. It is per item rather than per photo because one photo can
+  // be the cover for several items that each want a different part of it.
+  // Anything that is not a plain object-position value is dropped, so a stray
+  // value in items.json can never break out of the style attribute.
+  const FOCAL = /^(?:center|top|bottom|left|right|\d{1,3}%)(?: (?:center|top|bottom|left|right|\d{1,3}%))?$/;
+  const focalStyle = (item) => {
+    const v = String(item.focal || '').trim();
+    return FOCAL.test(v) ? ` style="object-position:${v}"` : '';
+  };
+
   let DATA = { config: {}, items: [] };
   let hideSold = false;
 
@@ -61,7 +73,7 @@
               : st === 'pending' ? `<span class="status-tag pending">On hold</span>` : '';
 
     const thumbInner = first
-      ? `<img src="${esc(first)}" alt="${esc(item.title)}" loading="lazy" decoding="async">`
+      ? `<img src="${esc(first)}" alt="${esc(item.title)}"${focalStyle(item)} loading="lazy" decoding="async">`
       : PLACEHOLDER;
 
     const meta = item.dimensions ? `<span class="pill">${esc(item.dimensions)}</span>` : '';
@@ -193,6 +205,7 @@
       const c = DATA.config || {};
       if (c.title) { document.title = c.title; setText('siteTitle', c.title); }
       setText('siteSubtitle', c.subtitle || '');
+      if (c.availability) { setText('siteAvail', c.availability); show('siteAvail'); }
       if (c.note) { setText('siteNote', c.note); show('siteNote'); }
 
       const ct = c.contact || {};
@@ -200,7 +213,12 @@
       const phone = decodeContact(ct.phone);
       const bits = [];
       if (email) bits.push(`<a href="mailto:${esc(email)}">${esc(email)}</a>`);
-      if (phone) bits.push(`<a href="tel:${esc(telHref(phone))}">${esc(phone)}</a>`);
+      if (phone) {
+        // e.g. "WhatsApp, text or iMessage" — says which apps reach this number.
+        const note = String(ct.phoneNote || '').trim();
+        bits.push(`<a href="tel:${esc(telHref(phone))}">${esc(phone)}</a>`
+          + (note ? ` (${esc(note)})` : ''));
+      }
       if (bits.length) {
         setHTML('headContact',
           `<strong>Interested in something?</strong> Contact ${esc(ct.name || 'us')} `

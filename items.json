@@ -1,88 +1,114 @@
 {
   "config": {
     "title": "Guy's Moving Sale",
-    "subtitle": "We're moving out of New York — furniture, lighting and a few odds and ends, all looking for a new home.",
-    "note": "Pickup only, from the apartment on the Upper East Side. First come, first served. Cash or Venmo. Happy to do a deal on bundles — take the whole living room and I'll make it worth your while.",
+    "subtitle": "We're moving out of New York — furniture, lighting and a few odds and ends, all looking for a new home. Most items have only been used for a year.",
+    "availability": "Many items available end of September. Some items available immediately — please inquire.",
+    "note": "Pickup only, from 72nd and York on the Upper East Side. First come, first served. Cash or Venmo. Happy to do a deal on bundles — take the whole living room and I'll make it worth your while.",
     "contact": {
       "name": "Guy",
       "email": "b64:Z3V5LnJvdGhibHVtQGdtYWlsLmNvbQ==",
-      "phone": "b64:KDg1NykgOTk4LTk4MjA="
+      "phone": "b64:KDg1NykgOTk4LTk4MjA=",
+      "phoneNote": "WhatsApp, text or iMessage"
     }
   },
   "items": [
     {
       "id": "sectional-sofa",
-      "title": "Blue sectional sofa with chaise",
-      "price": 500,
+      "title": "Blue sectional sofa",
+      "price": 350,
       "status": "available",
       "dimensions": "",
-      "description": "Modern fabric sectional in teal-blue with a left-facing chaise and black tapered metal legs. Deep seat, loose back cushions. No visible stains or tears in the photos. Pillows not included.",
+      "description": "Beautiful sectional in great condition. Pillows can be included.",
       "photos": [
-        "images/sofa-1.jpg",
-        "images/sofa-2.jpg",
-        "images/sofa-3-prints.jpg"
-      ]
-    },
-    {
-      "id": "media-console",
-      "title": "Light oak media console / TV stand",
-      "price": 300,
-      "status": "available",
-      "dimensions": "",
-      "description": "Wide low console in pale oak with four drawers and a fluted centre cabinet with a diamond motif. Plenty of storage for media and toys. Roughly 70 inches wide.",
-      "photos": [
-        "images/console-1.jpg",
-        "images/console-3.jpg",
-        "images/console-2-tv.jpg"
+        "images/sofa-1.jpg"
       ]
     },
     {
       "id": "platform-bed",
-      "title": "Upholstered platform bed, rust orange",
-      "price": 350,
+      "title": "Upholstered bed",
+      "price": 200,
       "status": "available",
       "dimensions": "",
-      "description": "Wingback-style upholstered headboard in a warm rust fabric on a matching platform frame with dark wood legs. Looks like a queen. Ask whether the mattress is included.",
+      "description": "Wingback-style upholstered headboard in a warm rust fabric on a matching platform frame with dark wood legs. Queen size. Excellent mattress included — two years old, lightly used.",
       "photos": [
-        "images/bed-1.jpg",
-        "images/bed-2.jpg"
+        "images/bed-1.jpg"
       ]
     },
     {
       "id": "armchair",
       "title": "Grey upholstered armchair",
-      "price": 250,
-      "status": "available",
-      "dimensions": "",
-      "description": "Compact club-style armchair in light grey with an exposed wood-tone frame and a loose seat cushion. Comfortable reading chair, clean upholstery.",
-      "photos": [
-        "images/armchair-1.jpg",
-        "images/armchair-2.jpg",
-        "images/armchair-3.jpg"
-      ]
-    },
-    {
-      "id": "standing-desk",
-      "title": "Electric standing desk",
       "price": 180,
       "status": "available",
       "dimensions": "",
-      "description": "Height-adjustable sit-stand desk with a warm wood top and a white steel frame. Around 55-60 inches wide. Motor and controller included.",
+      "description": "Comfortable reading chair, swivels, great condition.",
       "photos": [
-        "images/desk-1.jpg",
-        "images/desk-2.jpg"
+        "images/armchair-1.jpg"
+      ]
+    },
+    {
+      "id": "tv",
+      "title": "65\" flat-screen TV",
+      "price": 150,
+      "status": "available",
+      "dimensions": "",
+      "description": "65-inch flat-screen TV, currently on the media console. Bought new about a year ago for $380.",
+      "photos": [
+        "images/console-2-tv.jpg"
+      ]
+    },
+    {
+      "id": "crib",
+      "title": "White wooden crib with mattress",
+      "price": 120,
+      "status": "available",
+      "dimensions": "",
+      "description": "Classic white slatted crib with an adjustable mattress base, IKEA style. In good condition. Comes with a Moonlight Slumber Little Dreamers mattress, used for under a year.",
+      "photos": [
+        "images/crib-1.jpg"
+      ]
+    },
+    {
+      "id": "air-purifier",
+      "title": "Coway Airmega air purifier",
+      "price": 120,
+      "status": "available",
+      "dimensions": "",
+      "description": "Coway Airmega HEPA air purifier in white. One year old and in excellent condition. Quiet, good for a bedroom or nursery.",
+      "photos": [
+        "images/air-purifier-1.jpg"
+      ]
+    },
+    {
+      "id": "outdoor-sofa",
+      "title": "Outdoor wicker sofa",
+      "price": 120,
+      "status": "available",
+      "dimensions": "",
+      "description": "Two-seat balcony sofa in dark brown all-weather wicker on a steel frame, with thick grey outdoor cushions. Has lived on a covered balcony. Cushions and pillow included.",
+      "photos": [
+        "images/outdoor-sofa-1.jpg"
       ]
     },
     {
       "id": "side-table-oak",
       "title": "Oak side table with drawer",
-      "price": 110,
+      "price": 120,
       "status": "available",
       "dimensions": "",
       "description": "Rounded-corner side table in pale oak with one drawer and an open lower shelf. Sits nicely next to a sofa.",
       "photos": [
-        "images/side-table-1.jpg",
-        "images/side-table-2.jpg"
+        "images/side-table-1.jpg"
+      ]
+    },
+    {
+      "id": "media-console",
+      "title": "Light oak media console / TV stand",
+      "price": 90,
+      "status": "available",
+      "dimensions": "65\" wide",
+      "description": "Wide low console in pale oak with four drawers and a fluted centre cabinet with a diamond motif. Plenty of storage for media and toys.",
+      "photos": [
+        "images/console-2-tv.jpg"
       ]
     },
     {
@@ -93,20 +119,29 @@
       "dimensions": "",
       "description": "Three large graphic prints in slim black frames — blue and red stripes, an orange and teal landscape, and a black dash pattern. Sold as a set.",
       "photos": [
-        "images/sofa-3-prints.jpg",
-        "images/sofa-1.jpg"
+        "images/sofa-3-prints.jpg"
       ]
     },
     {
       "id": "living-rug",
       "title": "Large living room rug",
-      "price": 100,
+      "price": 80,
       "status": "available",
-      "dimensions": "",
-      "description": "Big flatweave area rug in cream with a soft grey grid and stripe pattern. Sized to sit under the sectional.",
+      "dimensions": "9' x 12'",
+      "description": "Big flatweave area rug in cream with a soft grey grid and stripe pattern. Machine washable and in great condition.",
       "photos": [
-        "images/sofa-1.jpg",
-        "images/sofa-2.jpg"
+        "images/sofa-1.jpg"
+      ]
+    },
+    {
+      "id": "standing-desk",
+      "title": "Electric standing desk",
+      "price": 80,
+      "status": "available",
+      "dimensions": "55\" wide",
+      "description": "Height-adjustable sit-stand desk with a warm wood top and a white steel frame. Motor and controller included.",
+      "photos": [
+        "images/desk-1.jpg"
       ]
     },
     {
@@ -115,57 +150,42 @@
       "price": 70,
       "status": "available",
       "dimensions": "",
-      "description": "Scandinavian-style bedside table in light oak with two drawers and tapered legs.",
+      "description": "Solid wood.",
       "photos": [
         "images/nightstand-1.jpg"
       ]
     },
     {
-      "id": "nesting-tables",
-      "title": "Nesting side tables, set of 2",
-      "price": 70,
-      "status": "available",
-      "dimensions": "",
-      "description": "Pair of pebble-shaped nesting tables with light wood legs — one white top, one charcoal. Use them together or apart.",
-      "photos": [
-        "images/armchair-1.jpg",
-        "images/armchair-3.jpg"
-      ]
-    },
-    {
-      "id": "monitor",
-      "title": "27-inch computer monitor",
-      "price": 70,
-      "status": "available",
-      "dimensions": "",
-      "description": "Widescreen monitor on an adjustable stand, used with the standing desk. Ask Guy for the exact model and age.",
-      "photos": [
-        "images/desk-1.jpg",
-        "images/desk-2.jpg"
-      ]
-    },
-    {
-      "id": "office-rug",
-      "title": "Striped runner rug",
+      "id": "changing-table",
+      "title": "White diaper changing table",
       "price": 60,
       "status": "available",
       "dimensions": "",
-      "description": "Flatweave rug in grey and white stripes, currently under the desk.",
+      "description": "White changing table with a padded changing pad on top and two open shelves below — room for diapers, wipes and baskets. Baskets and contents not included.",
       "photos": [
-        "images/office-chair-1.jpg",
-        "images/desk-1.jpg"
+        "images/changing-table-1.jpg"
       ]
     },
     {
       "id": "tripod-floor-lamp",
       "title": "Wood tripod floor lamp",
-      "price": 60,
+      "price": 50,
       "status": "available",
       "dimensions": "",
       "description": "Tall lamp on a light wood tripod base with a large cream drum shade. Warm, even light.",
       "photos": [
-        "images/tripod-floor-lamp-1.jpg",
-        "images/console-3.jpg"
+        "images/tripod-floor-lamp-1.jpg"
+      ]
+    },
+    {
+      "id": "rocking-chair",
+      "title": "Grey bouclé nursery rocking chair",
+      "price": 40,
+      "status": "available",
+      "dimensions": "",
+      "description": "High-backed nursery rocker in soft grey bouclé with a wingback shape and pale wood rockers. Comfortable for night feeds and bedtime stories. Cushion included.",
+      "photos": [
+        "images/rocking-chair-1.jpg"
       ]
     },
     {
@@ -174,7 +194,7 @@
       "price": 40,
       "status": "available",
       "dimensions": "",
-      "description": "Beige mesh-back task chair with armrests, height adjustment and castors. Some light marks on the seat.",
+      "description": "Beige mesh-back task chair with armrests, height adjustment and castors.",
       "photos": [
         "images/office-chair-1.jpg"
       ]
@@ -185,10 +205,10 @@
       "price": 40,
       "status": "available",
       "dimensions": "",
-      "description": "Slim metal floor lamp with a large white drum shade — the one beside the armchair.",
+      "description": "Slim metal floor lamp with a large white drum shade.",
+      "focal": "50% 5%",
       "photos": [
-        "images/armchair-1.jpg",
-        "images/armchair-2.jpg"
+        "images/armchair-1.jpg"
       ]
     },
     {
@@ -199,8 +219,18 @@
       "dimensions": "",
       "description": "Nickel-finish reading lamp with a jointed arm and a domed shade, IKEA Ranarp style. Swings out over a sofa or chair.",
       "photos": [
-        "images/ranarp-lamp-1.jpg",
-        "images/ranarp-lamp-2.jpg"
+        "images/ranarp-lamp-1.jpg"
+      ]
+    },
+    {
+      "id": "nesting-tables",
+      "title": "Nesting side tables, set of 2",
+      "price": 30,
+      "status": "available",
+      "dimensions": "",
+      "description": "Pair of pebble-shaped nesting tables with light wood legs — one white top, one charcoal. Use them together or apart.",
+      "photos": [
+        "images/armchair-1.jpg"
       ]
     },
     {
@@ -211,32 +241,29 @@
       "dimensions": "",
       "description": "Small tripod lamp in light wood with a linen drum shade. Matches the larger tripod floor lamp.",
       "photos": [
-        "images/side-table-1.jpg",
-        "images/side-table-2.jpg"
+        "images/side-table-1.jpg"
       ]
     },
     {
       "id": "desk-lamp",
-      "title": "Brass desk lamp",
+      "title": "Desk lamp",
       "price": 30,
       "status": "available",
       "dimensions": "",
       "description": "Adjustable brass-finish desk lamp with a dome shade, vintage bankers style.",
       "photos": [
-        "images/desk-1.jpg",
-        "images/office-chair-1.jpg"
+        "images/desk-1.jpg"
       ]
     },
     {
-      "id": "green-lamp",
-      "title": "Green table lamp",
-      "price": 25,
+      "id": "striped-rug",
+      "title": "Striped area rug",
+      "price": 30,
       "status": "available",
       "dimensions": "",
-      "description": "Small dark green table lamp with an uplit cylinder shade. Currently on the bedside tray table.",
+      "description": "Flatweave area rug in cream with stepped grey stripes. Low pile, lies flat and vacuums easily.",
       "photos": [
-        "images/tray-table-2.jpg",
-        "images/tray-table-1.jpg"
+        "images/rug-1.jpg"
       ]
     },
     {
@@ -247,31 +274,18 @@
       "dimensions": "",
       "description": "Rolling plastic drawer cart with six shallow drawers, used beside the desk.",
       "photos": [
-        "images/desk-2.jpg",
-        "images/office-chair-1.jpg"
+        "images/desk-2.jpg"
       ]
     },
     {
-      "id": "tray-table",
-      "title": "Round tray side table",
-      "price": 20,
+      "id": "side-table-green",
+      "title": "Green round metal side table",
+      "price": 15,
       "status": "available",
       "dimensions": "",
-      "description": "Grey metal side table with a removable round tray top, IKEA Gladom style. Used as a nightstand.",
+      "description": "Small round side table in sage-green powder-coated metal with splayed legs. Light enough to move with one hand, fine indoors or on a balcony.",
       "photos": [
-        "images/tray-table-1.jpg",
-        "images/tray-table-2.jpg"
-      ]
-    },
-    {
-      "id": "small-table-lamp",
-      "title": "Small wood and linen table lamp",
-      "price": 20,
-      "status": "available",
-      "dimensions": "",
-      "description": "Compact bedside lamp with a turned wood base and a small drum shade.",
-      "photos": [
-        "images/nightstand-1.jpg"
+        "images/rocking-chair-1.jpg"
       ]
     },
     {
@@ -281,20 +295,42 @@
       "status": "available",
       "dimensions": "",
       "description": "The classic white high chair with a tray and removable support cushion. Wipes clean, easy to disassemble.",
+      "focal": "50% 10%",
       "photos": [
         "images/high-chair-1.jpg"
       ]
     },
     {
-      "id": "tv",
-      "title": "Large flat-screen TV (approx. 65 inch)",
-      "price": null,
+      "id": "green-lamp",
+      "title": "Green table lamp",
+      "price": 10,
       "status": "available",
       "dimensions": "",
-      "description": "Big flat-screen TV, currently on the media console. Price on request — ask Guy for the brand, model and age before you make an offer.",
+      "description": "Small dark green table lamp with an uplit cylinder shade. Currently on the bedside tray table.",
       "photos": [
-        "images/console-2-tv.jpg",
-        "images/console-1.jpg"
+        "images/tray-table-2.jpg"
+      ]
+    },
+    {
+      "id": "tray-table",
+      "title": "Round tray side table",
+      "price": 10,
+      "status": "available",
+      "dimensions": "",
+      "description": "Grey metal side table with a removable round tray top, IKEA Gladom style. Used as a nightstand.",
+      "photos": [
+        "images/tray-table-1.jpg"
+      ]
+    },
+    {
+      "id": "small-table-lamp",
+      "title": "Table lamp",
+      "price": 10,
+      "status": "available",
+      "dimensions": "",
+      "description": "Compact bedside lamp with a turned wood base and a small drum shade.",
+      "photos": [
+        "images/nightstand-1.jpg"
       ]
     }
   ]

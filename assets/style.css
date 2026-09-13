@@ -86,6 +86,12 @@ h1.title {
   background: var(--bg-sunken); border: 1px solid var(--line);
   border-radius: 10px; font-size: 14.5px; color: var(--ink-2); max-width: 60ch;
 }
+/* Timing is the thing buyers need first, so it sits above the logistics note
+   in its own callout rather than buried in the same paragraph. */
+.note-avail {
+  margin-bottom: 8px; color: var(--ink); font-weight: 500;
+  border-left: 3px solid var(--accent);
+}
 
 /* ---------- toolbar ---------- */
 .toolbar {
