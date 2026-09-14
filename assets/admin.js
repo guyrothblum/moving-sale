@@ -12,7 +12,7 @@
   let REPO = { owner: '', repo: '', branch: 'main' };
 
   function guessRepo() {
-    const host = location.hostname;                       // e.g. rothblum.github.io
+    const host = location.hostname;                       // e.g. guyrothblum.github.io
     const seg = location.pathname.split('/').filter(Boolean);
     const m = host.match(/^([\w-]+)\.github\.io$/i);
     if (!m) return null;

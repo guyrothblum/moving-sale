@@ -2,13 +2,14 @@
 
 A small static site listing furniture for sale, hosted free on GitHub Pages.
 
-- **Public page** — `index.html`, anyone can browse it.
+- **Public page** — `index.html`, anyone can browse it:
+  <https://guyrothblum.github.io/moving-sale/>
 - **Editor** — `admin.html`, only people with write access to this repo can save changes.
 - **The data** — everything on the public page comes from `items.json`. Photos live in `images/`.
 
 ## For Guy — how to edit the listing
 
-1. Open the editor: **`https://rothblum.github.io/moving-sale/admin.html`** (bookmark it).
+1. Open the editor: **`https://guyrothblum.github.io/moving-sale/admin.html`** (bookmark it).
 2. The first time, it asks for a GitHub access token. Create one here:
    <https://github.com/settings/personal-access-tokens/new>
    - **Repository access** → *Only select repositories* → this repo
