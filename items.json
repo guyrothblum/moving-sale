@@ -16,33 +16,11 @@
       "id": "sectional-sofa",
       "title": "Blue sectional sofa",
       "price": 350,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "Beautiful sectional in great condition. Pillows can be included.",
       "photos": [
         "images/sofa-1.jpg"
-      ]
-    },
-    {
-      "id": "platform-bed",
-      "title": "Upholstered bed",
-      "price": 200,
-      "status": "available",
-      "dimensions": "",
-      "description": "Wingback-style upholstered headboard in a warm rust fabric on a matching platform frame with dark wood legs. Queen size. Excellent mattress included — two years old, lightly used.",
-      "photos": [
-        "images/bed-1.jpg"
-      ]
-    },
-    {
-      "id": "armchair",
-      "title": "Grey upholstered armchair",
-      "price": 180,
-      "status": "available",
-      "dimensions": "",
-      "description": "Comfortable reading chair, swivels, great condition.",
-      "photos": [
-        "images/armchair-1.jpg"
       ]
     },
     {
@@ -68,21 +46,10 @@
       ]
     },
     {
-      "id": "air-purifier",
-      "title": "Coway Airmega air purifier",
-      "price": 120,
-      "status": "available",
-      "dimensions": "",
-      "description": "Coway Airmega HEPA air purifier in white. One year old and in excellent condition. Quiet, good for a bedroom or nursery.",
-      "photos": [
-        "images/air-purifier-1.jpg"
-      ]
-    },
-    {
       "id": "outdoor-sofa",
       "title": "Outdoor wicker sofa",
       "price": 120,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "Two-seat balcony sofa in dark brown all-weather wicker on a steel frame, with thick grey outdoor cushions. Has lived on a covered balcony. Cushions and pillow included.",
       "photos": [
@@ -90,14 +57,14 @@
       ]
     },
     {
-      "id": "side-table-oak",
-      "title": "Oak side table with drawer",
-      "price": 120,
+      "id": "air-purifier",
+      "title": "Coway Airmega air purifier",
+      "price": 100,
       "status": "available",
       "dimensions": "",
-      "description": "Rounded-corner side table in pale oak with one drawer and an open lower shelf. Sits nicely next to a sofa.",
+      "description": "Coway Airmega HEPA air purifier in white. One year old and in excellent condition. Quiet, good for a bedroom or nursery.",
       "photos": [
-        "images/side-table-1.jpg"
+        "images/air-purifier-1.jpg"
       ]
     },
     {
@@ -115,7 +82,7 @@
       "id": "art-prints",
       "title": "Set of 3 framed abstract prints",
       "price": 90,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "Three large graphic prints in slim black frames — blue and red stripes, an orange and teal landscape, and a black dash pattern. Sold as a set.",
       "photos": [
@@ -123,25 +90,47 @@
       ]
     },
     {
-      "id": "living-rug",
-      "title": "Large living room rug",
+      "id": "platform-bed",
+      "title": "Upholstered bed",
       "price": 80,
       "status": "available",
-      "dimensions": "9' x 12'",
-      "description": "Big flatweave area rug in cream with a soft grey grid and stripe pattern. Machine washable and in great condition.",
+      "dimensions": "",
+      "description": "Wingback-style upholstered headboard in a warm rust fabric on a matching platform frame with dark wood legs. Queen size. Excellent mattress included — two years old, lightly used.",
       "photos": [
-        "images/sofa-1.jpg"
+        "images/bed-1.jpg"
+      ]
+    },
+    {
+      "id": "side-table-oak",
+      "title": "Oak side table with drawer",
+      "price": 80,
+      "status": "available",
+      "dimensions": "",
+      "description": "Rounded-corner side table in pale oak with one drawer and an open lower shelf. Sits nicely next to a sofa.",
+      "photos": [
+        "images/side-table-1.jpg"
       ]
     },
     {
       "id": "standing-desk",
       "title": "Electric standing desk",
       "price": 80,
-      "status": "available",
+      "status": "sold",
       "dimensions": "55\" wide",
       "description": "Height-adjustable sit-stand desk with a warm wood top and a white steel frame. Motor and controller included.",
       "photos": [
         "images/desk-1.jpg"
+      ]
+    },
+    {
+      "id": "armchair",
+      "title": "Grey upholstered armchair",
+      "price": 75,
+      "status": "available",
+      "dimensions": "",
+      "description": "Comfortable reading chair, swivels, great condition.",
+      "photos": [
+        "images/armchair-1.jpg"
       ]
     },
     {
@@ -164,6 +153,17 @@
       "description": "White changing table with a padded changing pad on top and two open shelves below — room for diapers, wipes and baskets. Baskets and contents not included.",
       "photos": [
         "images/changing-table-1.jpg"
+      ]
+    },
+    {
+      "id": "living-rug",
+      "title": "Large living room rug",
+      "price": 50,
+      "status": "available",
+      "dimensions": "9' x 12'",
+      "description": "Big flatweave area rug in cream with a soft grey grid and stripe pattern. Machine washable and in great condition.",
+      "photos": [
+        "images/sofa-1.jpg"
       ]
     },
     {
@@ -192,7 +192,7 @@
       "id": "office-chair",
       "title": "Mesh office chair",
       "price": 40,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "Beige mesh-back task chair with armrests, height adjustment and castors.",
       "photos": [
@@ -226,7 +226,7 @@
       "id": "nesting-tables",
       "title": "Nesting side tables, set of 2",
       "price": 30,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "Pair of pebble-shaped nesting tables with light wood legs — one white top, one charcoal. Use them together or apart.",
       "photos": [
@@ -269,7 +269,7 @@
     {
       "id": "drawer-cart",
       "title": "White storage drawer unit",
-      "price": 25,
+      "price": 15,
       "status": "available",
       "dimensions": "",
       "description": "Rolling plastic drawer cart with six shallow drawers, used beside the desk.",
@@ -292,7 +292,7 @@
       "id": "high-chair",
       "title": "IKEA Antilop high chair",
       "price": 15,
-      "status": "available",
+      "status": "sold",
       "dimensions": "",
       "description": "The classic white high chair with a tray and removable support cushion. Wipes clean, easy to disassemble.",
       "focal": "50% 10%",

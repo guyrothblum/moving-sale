@@ -69,7 +69,10 @@
     const photos = Array.isArray(item.photos) ? item.photos.filter(Boolean) : [];
     const first = photos[0];
 
-    const tag = st === 'sold' ? `<span class="status-tag sold">Sold</span>`
+    // Sold items stay on the page so people can see what has already gone, so
+    // the marker has to land on a fast scroll — a band across the photo rather
+    // than a corner tag, which people kept missing and asking about anyway.
+    const tag = st === 'sold' ? `<span class="sold-banner">Sold</span>`
               : st === 'pending' ? `<span class="status-tag pending">On hold</span>` : '';
 
     const thumbInner = first
@@ -89,7 +92,9 @@
         <div class="body">
           <div class="row-1">
             <h2 class="name">${esc(item.title)}</h2>
-            <span class="price">${money(item.price)}</span>
+            ${st === 'sold'
+              ? `<span class="price"><s>${money(item.price)}</s> <b class="sold-word">Sold</b></span>`
+              : `<span class="price">${money(item.price)}</span>`}
           </div>
           ${meta ? `<div class="meta">${meta}</div>` : ''}
           ${item.description ? `<p class="desc">${esc(item.description)}</p>` : ''}
